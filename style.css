@@ -264,3 +264,26 @@
 
 .g6 .top { height: 50px; }
 .g6 .bottom { height: 50px; } */
+
+.second-sec days {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.third-sec {
+     height: 500px;
+    width: 700px;
+    background-color:lightgray;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.third-sec p {
+    height:200px;
+    width: 300px;
+    text-align: left;
+    padding: 100px;
+    font
+
+}
