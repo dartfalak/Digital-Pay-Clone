@@ -68,14 +68,16 @@
  .graph {
   height: 300px;
   width: 400px;
+
 }
 
 .g1{
     height:300px;
     width:60px;
-    background-color: brown;
+    background-color:white;
     z-index: 200;
     margin-left: 60px;
+  
 }
 
 .g2 {
@@ -86,6 +88,7 @@
     margin-left: 160px;
     margin-top: -300px;
 
+
 }
 
 .g3 {
@@ -95,6 +98,8 @@
     z-index: 200;
     margin-left: 260px;
     margin-top:-300px;
+      
+
 
 }
 
@@ -105,6 +110,8 @@
     z-index: 200;
     margin-left: 360px;
     margin-top: -300px;
+      
+
 
 }
 
@@ -115,6 +122,8 @@
     z-index: 200;
     margin-left: 460px;
     margin-top: -300px;
+      
+
 
 }
 
@@ -127,24 +136,82 @@
     z-index: 200;
     margin-left: 560px;
     margin-top: -300px;
+      
+
 
 } 
-.g1g1 {
-      height:100px;
-    width:60px;
-    background-color:white;
 
+.bar1 {
+     height:98px;
+    width:60px;
+    background-color:brown;
     margin-right: 800px;
+    
+
+    
+    
 
 }
 
 
+.bar2 {
+
+    height:60px;
+    width:60px;
+    background-color:white;
+    margin-right: 800px;
+     
+
+    
 
 
 
+}
+
+
+.bar3 {
+    height:250px;
+    width:60px;
+    background-color:white;
+    margin-right: 800px;
+      
+
+
+}
+
+.bar4 {
+    height:150px;
+    width:60px;
+    background-color:white;
+    margin-right: 800px;
+    
 
 
 
+}
+
+
+.bar5 {
+     height:200px;
+    width:60px;
+    background-color:white;
+    margin-right: 800px;
+    
+
+
+}
+
+
+.bar6 {
+     height:90px;
+    width:60px;
+    background-color:white;
+    margin-right: 800px;
+      
+
+
+
+}
 
 
 
