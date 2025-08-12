@@ -36,7 +36,7 @@
     width: 700px;
     background-color:lightgray;
     border-radius: 15px;
-    margin-top: -520px;
+    margin-top: -700px;
     margin-left: 750px;
 
 }
@@ -48,11 +48,141 @@
     font-weight: bolder;
 
 } */
-.second-sec h6 {
+.second-sec h4 {
     margin-left: 20px;
     margin-top: 200px;
     padding: 20px;
     font-weight:300;
+    font-size:20px;
 
 }
 
+.second-sec p {
+    margin-left: 24px;
+    margin-top: -50px;
+    padding: 20px;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+/* .graph {
+  height: 300px;
+  width: 400px;
+}
+
+.g1{
+    height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 60px;
+}
+
+.g2 {
+     height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 160px;
+    margin-top: -300px;
+
+}
+
+.g3 {
+     height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 260px;
+    margin-top:-300px;
+
+}
+
+.g4 {
+     height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 360px;
+    margin-top: -300px;
+
+}
+
+.g5 {
+     height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 460px;
+    margin-top: -300px;
+
+}
+
+.g6 {
+
+
+    height:300px;
+    width:60px;
+    background-color: white;
+    z-index: 200;
+    margin-left: 560px;
+    margin-top: -300px;
+
+} 
+
+/* {
+      height:200px;
+    width:60px;
+    background-color:brown;
+    z-index: 200;
+    margin-left: 200px;
+
+} */ 
+
+.graph {
+  display: flex;
+  align-items: flex-end;  
+  gap: 30px;
+  height: 400px;
+  width: 500px;
+  margin-bottom: -200px;
+}
+
+
+.graph > div {
+  display: flex;
+  flex-direction: column; 
+  width: 50px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top:-200px;
+}
+
+
+.top {
+  background-color: #f4f4f4;
+}
+
+
+.bottom {
+  background-color: #A66E4A;
+}
+
+
+.g1 .top { height: 30px; }
+.g1 .bottom { height: 110px; }
+
+.g2 .top { height: 20px; }
+.g2 .bottom { height: 160px; }
+
+.g3 .top { height: 40px; }
+.g3 .bottom { height: 80px; }
+
+.g4 .top { height: 25px; }
+.g4 .bottom { height: 145px; }
+
+.g5 .top { height: 35px; }
+.g5 .bottom { height: 115px; }
+
+.g6 .top { height: 50px; }
+.g6 .bottom { height: 50px; }
