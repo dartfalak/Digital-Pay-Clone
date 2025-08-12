@@ -50,50 +50,63 @@
    </div>
 </div>
 
-<div class="grey-container">
-        <div class="balance-card">
-            <div class="balance-header">Quick balance check</div>
+ <div class="grey-container">
+        <div class="white-card">
+            <h1 class="card-header">Quick balance check</h1>
             
-            <div class="button-row">
-                <button class="action-btn">Withdraw</button>
-                <button class="action-btn">Exchange</button>
+            <div class="action-buttons">
+                <button class="btn withdraw">Withdraw</button>
+                <button class="btn exchange">Exchange</button>
             </div>
             
-            <div class="balance-display">
-                <div class="currency">EUR</div>
-                <div class="amount">550.00</div>
-                <div class="limit">min 18.00 EUR</div>
-                <div class="limit">max 35,900.50 EUR</div>
+            <div class="balance-section">
+                <span class="currency">EUR</span>
+                <h2 class="balance">550.00</h2>
+                <div class="limits">
+                    <span class="min">min 18.00 EUR</span>
+                    <span class="max">max 35,900.50 EUR</span>
+                </div>
             </div>
             
-            <div class="amount-input">
-                <div class="input-label">Amount</div>
-                <input type="text" class="amount-field" value="15780">
+            <div class="amount-section">
+                <label class="amount-label">Amount</label>
+                <input type="text" class="amount-input" value="15780">
             </div>
             
             <div class="review-section">
-                <div class="review-item">
-                    <span class="review-amount">785.00</span>
-                    <span class="review-note">75.00</span>
-                </div>
-                <div class="review-category">Travel 5 events</div>
+                <h3 class="review-title">Review</h3>
                 
-                <div class="review-item">
-                    <span class="review-amount">95.00</span>
-                </div>
-                <div class="review-category">Dollar 24 events</div>
+                <div class="transaction-category">Recycling</div>
+                <div class="transaction-category">Travel 5 events</div>
                 
-                <div class="review-user">Amy Evans</div>
-                <div class="review-item">
-                    <span class="review-amount">935.00</span>
+                <div class="transaction-row">
+                    <span class="transaction-amount">95.00</span>
+                    <span class="transaction-amount">75.00</span>
                 </div>
-                <div class="review-time">(2:26 PM)</div>
+                <div class="transaction-row">
+                    <span class="transaction-amount">85.00</span>
+                    <span class="transaction-amount">90.00</span>
+                </div>
+                <div class="transaction-row">
+                    <span class="transaction-amount">100.00</span>
+                </div>
                 
-                <div class="review-item">
-                    <span class="review-amount">950.00</span>
-                    <span class="review-amount">520.50</span>
+                <div class="user-info">
+                    <span class="user-name">Amy Evans</span>
+                    <span class="transaction-amount">935.00</span>
                 </div>
-                <div class="review-category">Delivery 8 events</div>
+                <div class="transaction-time">(2:26 PM)</div>
+                
+                <div class="transaction-row">
+                    <span class="transaction-amount">950.00</span>
+                    <span class="transaction-amount">785.00</span>
+                </div>
+                <div class="transaction-row">
+                    <span class="transaction-amount">500.50</span>
+                </div>
+                
+                <div class="transaction-category">Shopping 24 events</div>
+                <div class="transaction-category">Delivery 8 events</div>
             </div>
         </div>
     </div>
