@@ -42,8 +42,13 @@
 }
 
 .inner-sec h5 {
-    margin-left: 70px;
-    margin-top: 40px;
+    margin-left: 200px;
+    margin-top: -37px;
     font-size: 1.25rem;
+    color: grey;
+    font-weight: 100;
 }
 
+h5:hover {
+    color: ;
+}
