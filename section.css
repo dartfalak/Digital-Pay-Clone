@@ -49,6 +49,24 @@
     font-weight: 100;
 }
 
-h5:hover {
-    color: ;
+/* h5:hover {
+    color:;
+} */
+
+.currency {
+    height:200px;
+    width: 300px;
+    border-radius: 40px;
+    border-color: grey;
+    
+    
+}
+
+.currency h6{
+    height:200px;
+    width: 300px;
+    border-radius: 40px;
+    border-color: grey;
+    
+    
 }
