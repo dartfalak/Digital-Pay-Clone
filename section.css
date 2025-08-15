@@ -1,3 +1,20 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
 .third-sec {
     position: relative;
     height: 550px;
@@ -72,20 +89,7 @@
     
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
 
-body {
-  background: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
 .container {
   background: #fff;
