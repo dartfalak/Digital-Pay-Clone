@@ -270,20 +270,13 @@
     margin-left: 200px;
 } */
 
-.third-sec {
-     height: 500px;
-    width: 700px;
-    background-color:lightgray;
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
-.third-sec p {
+
+
+/* .third-sec p {
     height:200px;
     width: 300px;
     text-align: center;
-     /* padding: 10px;  */
     font-size:30px;
     font-weight: bolder;
     margin-left: 90px;
@@ -300,8 +293,8 @@
     
     margin-bottom: 100px;
 
- }
-
+ } 
+ 
 
 .grey-container {
     height: 500px;
@@ -313,8 +306,16 @@
     
 
 
-}
+} */
 
+
+.third-sec {
+      height: 500px;
+    width: 700px;
+    background-color:lightgray;
+    border-radius: 15px;
+    
+}
 
 .white-card {
     background-color: white;
@@ -333,7 +334,7 @@
     color: #333;
 }
 
-/* Action Buttons */
+
 .action-buttons {
     display: flex;
     gap: 0.75rem;
@@ -356,7 +357,7 @@
     background-color: #f0f0f0;
 }
 
-/* Balance Section */
+
 .balance-section {
     margin-bottom: 1.5rem;
 }
@@ -406,7 +407,7 @@
     box-sizing: border-box;
 }
 
-/* Review Section */
+
 .review-section {
     margin-top: 1.5rem;
 }
@@ -455,10 +456,11 @@
 
 .container {
   background: #fff;
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   width: 400px;
+  
 }
 
 h2 {
