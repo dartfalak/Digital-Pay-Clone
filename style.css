@@ -5,8 +5,8 @@
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 20px;
-    position: relative; /* Needed for absolute positioning */
-    overflow: hidden; /* Keeps circles inside container */
+    position: relative;
+    overflow: hidden; 
 }
 
 .logo {
@@ -26,35 +26,34 @@
     font-weight: bold;
     font-family: 'Times New Roman';
     letter-spacing: 0;
-    position: relative; /* Ensures text stays above circles */
-    z-index: 1; /* Text appears on top */
+    position: relative; 
+    z-index: 1;
 }
 
-/* Larger outer circle (hollow with grey border) */
+
 .logo::before {
     content: "";
     position: absolute;
-    width: 350px;
-    height: 350px;
-    border: 2px solid #888; /* Grey border */
+    width: 390px;
+    height: 390px;
+    border: 2px solid #888; 
     border-radius: 50%;
     top: 50px;
-    left: 150px;
-    background: transparent; /* Hollow inside */
+    left: 100px;
+    background: transparent; 
     z-index: 0;
 }
 
-/* Smaller inner circle (hollow with grey border) */
 .logo::after {
     content: "";
     position: absolute;
     width: 250px;
     height: 250px;
-    border: 2px solid #888; /* Grey border */
+    border: 2px solid #888; 
     border-radius: 50%;
     top: 100px;
     left: 200px;
-    background: transparent; /* Hollow inside */
+    background: transparent; 
     z-index: 0;
 }
 .second-sec {
