@@ -1,36 +1,62 @@
 .first-sec {
     height: 500px;
     width: 700px;
-    background-color:lightgray;
+    background-color: lightgray;
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 20px;
-
+    position: relative; /* Needed for absolute positioning */
+    overflow: hidden; /* Keeps circles inside container */
 }
 
 .logo {
     height: 400px;
-    width:450px;
-    
-
+    width: 450px;
 }
 
 .logo img {
-     margin-top: 100px;
-     margin-left: 240px;
-     
-
+    margin-top: 100px;
+    margin-left: 240px;
 }
 
 .logo p {
     height: 200px;
-    font-size:4rem;
+    font-size: 4rem;
     margin-left: 240px;
     font-weight: bold;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
     letter-spacing: 0;
+    position: relative; /* Ensures text stays above circles */
+    z-index: 1; /* Text appears on top */
 }
 
+/* Larger outer circle (hollow with grey border) */
+.logo::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 2px solid #888; /* Grey border */
+    border-radius: 50%;
+    top: 50px;
+    left: 150px;
+    background: transparent; /* Hollow inside */
+    z-index: 0;
+}
+
+/* Smaller inner circle (hollow with grey border) */
+.logo::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #888; /* Grey border */
+    border-radius: 50%;
+    top: 100px;
+    left: 200px;
+    background: transparent; /* Hollow inside */
+    z-index: 0;
+}
 .second-sec {
      height: 500px;
     width: 700px;
@@ -442,4 +468,9 @@ h2 {
   border-radius: 18px;
   cursor: pointer;
   font-size: 0.95rem;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #ddd;
 }
