@@ -21,18 +21,20 @@
 
 .logo p {
     height: 200px;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-left: 240px;
     font-weight: bold;
     font-family: 'Times New Roman';
     letter-spacing: 0;
     position: relative; 
     z-index: 1;
+    margin-top: 10px;
 }
 
 
+
 .logo::before {
-    content: "";
+     content: ""; 
     position: absolute;
     width: 430px;
     height: 430px;
@@ -45,14 +47,14 @@
 }
 
 .logo::after {
-    content: "";
+     content: ""; 
     position: absolute;
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     border: 2px solid #888; 
     border-radius: 50%;
-    top: 100px;
-    left: 200px;
+    top: 165px;
+    left: 260px;
     background: transparent; 
     z-index: 0;
 }
