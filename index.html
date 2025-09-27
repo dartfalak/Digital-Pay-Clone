@@ -1,153 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigitalPay — Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-     <div class="first-sec">
-     <div class="logo">
-        <img src="payoneer-dark-logo.svg" alt="Payoneer Logo">
-        <p> Manage your money </p>
-     </div>
-    </div>
-
-   <div class="second-sec">
-    <h4>Week 4-10 July</h4>
-    <p>897.00</p>
-   <div class="graph">
-      <div class="g1">
-         <div class="bar1">
-            <!-- <p>Mon</p> -->
-         </div>
-         </div>
-       <div class="g2">
-         <div class="bar2">
-            <!-- <p class="days">Tue</p> -->
-       </div>
-       </div>
-        <div class="g3">
-         <div class="bar3">
-        </div>
-        </div>
-         <div class="g4">
-            <div class="bar4">
-         </div>
-         </div>
-         <div class="g5">
-            <div class="bar5">
-         </div>
-         </div>
-          <div class="g6">
-            <div class="bar6">
-         </div>
-          </div>
-         </div>
-  </div>
-</div>
-   </div>
-</div>
+  <header class="site-header">
+    <div class="brand">
    
- <!-- <div class="grey-container">
-        <div class="white-card">
-            <h1 class="card-header">Quick balance check</h1>
-            
-            <div class="action-buttons">
-                <button class="btn withdraw">Withdraw</button>
-                <button class="btn exchange">Exchange</button>
-            </div>
-            
-            <div class="balance-section">
-                <span class="currency">EUR</span>
-                <h2 class="balance">550.00</h2>
-                <div class="limits">
-                    <span class="min">min 18.00 EUR</span>
-                    <span class="max">max 35,900.50 EUR</span>
-                </div>
-            </div>
-            
-            <div class="amount-section">
-                <label class="amount-label">Amount</label>
-                <input type="text" class="amount-input" value="15780">
-            </div>
-            
-            <div class="review-section">
-                <h3 class="review-title">Review</h3>
-                
-                <div class="transaction-category">Recycling</div>
-                <div class="transaction-category">Travel 5 events</div>
-                
-                <div class="transaction-row">
-                    <span class="transaction-amount">95.00</span>
-                    <span class="transaction-amount">75.00</span>
-                </div>
-                <div class="transaction-row">
-                    <span class="transaction-amount">85.00</span>
-                    <span class="transaction-amount">90.00</span>
-                </div>
-                <div class="transaction-row">
-                    <span class="transaction-amount">100.00</span>
-                </div>
-                
-                <div class="user-info">
-                    <span class="user-name">Amy Evans</span>
-                    <span class="transaction-amount">935.00</span>
-                </div>
-                <div class="transaction-time">(2:26 PM)</div>
-                
-                <div class="transaction-row">
-                    <span class="transaction-amount">950.00</span>
-                    <span class="transaction-amount">785.00</span>
-                </div>
-                <div class="transaction-row">
-                    <span class="transaction-amount">500.50</span>
-                </div>
-                
-                <div class="transaction-category">Shopping 24 events</div>
-                <div class="transaction-category">Delivery 8 events</div>
-            </div>
+      <img src="payoneer-dark-logo.svg" alt="Brand logo" class="brand-logo" />
+      <div class="brand-text">
+        <h1>DigitalPay</h1>
+        <p>Manage your money simply</p>
+      </div>
+    </div>
+
+    <nav class="top-actions">
+      <button class="icon-btn">Help</button>
+      <button class="icon-btn">Profile</button>
+    </nav>
+  </header>
+
+  <main class="layout">
+   
+    <section class="panel hero-panel">
+      <div class="hero-inner">
+        <h2 class="hero-title">Welcome back</h2>
+        <p class="hero-sub">Your account overview for this week</p>
+
+        <div class="balance-card">
+          <div class="balance-left">
+            <small>Available balance</small>
+            <div class="balance-amount">€ <span>8,972.00</span></div>
+            <div class="balance-meta">Updated: Jul 10, 2025</div>
+          </div>
+          <div class="balance-actions">
+            <a class="btn primary">Send</a>
+            <a class="btn ghost">Request</a>
+          </div>
         </div>
-    </div>
-    -->
-    <div class="third-sec">
-    <div class="container">
-    <h2>Quick balance check</h2>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <h3>Weekly activity</h3>
+              <small>4–10 July</small>
+            </div>
+            <div class="chart-total">€ 897.00</div>
+          </div>
+
     
-    <div class="tabs">
-      <div class="tab active">Withdraw</div>
-      <div class="tab">Exchange</div>
-    </div>
-    
-    <div class="form-group">
-      <select class="select-box">
-        <option>€ EUR</option>
-        <option>$ USD</option>
-        <option>£ GBP</option>
-      </select>
-      
-      <select class="select-box">
-        <option>*5780</option>
-        <option>*1234</option>
-        <option>*9876</option>
-      </select>
-    </div>
+          <div class="bar-chart" aria-hidden="true">
+            <div class="bar" style="--h:60%"><span>Mon</span></div>
+            <div class="bar" style="--h:35%"><span>Tue</span></div>
+            <div class="bar" style="--h:95%"><span>Wed</span></div>
+            <div class="bar" style="--h:55%"><span>Thu</span></div>
+            <div class="bar" style="--h:75%"><span>Fri</span></div>
+            <div class="bar" style="--h:40%"><span>Sat</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <input class="amount-box" type="number" placeholder="Amount" />
+   
+    <aside class="panel side-panel">
+      <div class="quick-card">
+        <h3>Quick balance check</h3>
 
-    <div class="limits">
-      <span>min 18.00 EUR</span>
-      <span>max 35,900.50 EUR</span>
-    </div>
+        <div class="tabs">
+          <input type="radio" name="tab" id="tab-withdraw" checked />
+          <label for="tab-withdraw" class="tab-label">Withdraw</label>
 
-    <button class="btn">Review</button>
-  </div>
- </div>
+          <input type="radio" name="tab" id="tab-exchange" />
+          <label for="tab-exchange" class="tab-label">Exchange</label>
 
- <div class="fourth-sec">
-  
+          <div class="tab-panels">
+            <div class="tab-panel panel-withdraw">
+              <form class="quick-form" onsubmit="return false;">
+                <div class="row-selects">
+                  <select aria-label="currency">
+                    <option>€ EUR</option>
+                    <option>$ USD</option>
+                  </select>
+                  <select aria-label="account">
+                    <option>*5780</option>
+                    <option>*1234</option>
+                  </select>
+                </div>
+                <input type="number" placeholder="Amount" class="amount-input" />
+                <!-- <div class="limits"><span>min 18.00 EUR</span><span>max 35,900.50 EUR</span></div> -->
 
- </div>
+              </form>
+            </div>
+
+            <div class="tab-panel panel-exchange">
+              <!-- <form class="quick-form" onsubmit="return false;">
+                <div class="row-selects">
+                  <select aria-label="from-currency">
+                    <option>From € EUR</option>
+                    <option>From $ USD</option>
+                  </select>
+                  <select aria-label="to-currency">
+                    <option>To $ USD</option>
+                    <option>To £ GBP</option>
+                  </select> -->
+                </div>
+                <!-- <input type="number" placeholder="Amount" class="amount-input" />
+                <div class="limits"><span>min 10.00</span><span>max 20,000.00</span></div> -->
+                <button class="btn primary">Exchange</button> 
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tx-card">
+        <div class="tx-header">
+          <h3>Recent transactions</h3>
+          <a class="view-all" href="#">View all</a>
+        </div>
+
+        <ul class="tx-list">
+          <li class="tx-item">
+            <div class="tx-left">
+              <div class="tx-title">Recycling</div>
+              <div class="tx-meta">Today, 2:26 PM</div>
+            </div>
+            <div class="tx-amount positive">+€95.00</div>
+          </li>
+
+          <li class="tx-item">
+            <div class="tx-left">
+              <div class="tx-title">Travel — 5 events</div>
+              <div class="tx-meta">Yesterday</div>
+            </div>
+            <div class="tx-amount negative">-€75.00</div>
+          </li>
+
+          <li class="tx-item">
+            <div class="tx-left">
+              <div class="tx-title">Shopping — 24 events</div>
+              <div class="tx-meta">Jul 7</div>
+            </div>
+            <div class="tx-amount negative">-€100.00</div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 DigitalPay — demo UI. Logo used: your image.</small>
+  </footer>
 </body>
 </html>
